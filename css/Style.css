@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Gabriela";
+    src: url(../fonts/Gabriela-Regular.ttf);
+}
+
+@font-face {
+    font-family: "El Messiri";
+    src: url(../fonts/ElMessiri-VariableFont_wght.ttf);
+}
+
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    background-color: silver;
+    
+    
+    
+}
+main {
+
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 25%;
+    
+    
+    
+}
+
+footer {
+
+  
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+.links {
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+li {
+
+    list-style: none;
+    margin-right: 50px;
+    padding: 0;
+    
+}
+
+.info {
+
+    display: block;
+    margin-left: 50px;
+
+}
+
+.head-link {
+
+    text-decoration: none;
+    font-size: 150%;
+}
+
+h1 {
+
+    font-family: "Gabriela", Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+h2 {
+
+    font-family: "Gabriela", Arial, Helvetica, sans-serif
+}
+
+p {
+
+    font-family: "El Messiri", Arial, Helvetica, sans-serif;
+}
+
+.image {
+
+    margin-top: 50px;
+}
+
+.name {
+
+    display: flex;
+}
+
+
+a:hover {
+
+    color: red; 
+}
